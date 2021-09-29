@@ -1,10 +1,10 @@
 # Instruções
 
-1 - Ter um instalado um banco de dados Oracle e ajustar as credenciais usuario, senha e tns em `arquivos/config_file.py` # DB dados
+1 - Ter instalado um banco de dados Oracle e ajustar as credenciais de usuario, senha e tns em `arquivos/config_file.py`, variavel `DB dados`
 
-2 - Criar as tabelas no banco de dados, script em `arquivos/create_tables.sql`
+2 - Criar as tabelas no banco de dados, script disponivel em `arquivos/create_tables.sql`
 
-3 - Ter um client Oracle instalado na maquina onde o teste será executado e ajustar o caminho da instalacao do Cliente em `arquivos/config_file.py` # DB dados
+3 - Ter um client Oracle instalado na maquina onde o teste será executado e ajustar o caminho da instalacao do Cliente em `arquivos/config_file.py`, variavel `lib_dir`
 
 Caso necessario, ajustar o arquivo do Client Oracle `sqlnet.ora`:
 ````
@@ -23,6 +23,6 @@ https://www.oracletutorial.com/python-oracle
 
 OBS: instalar o cx_Oracle pelo terminal do IDE
 
-5 - Ajusta ro caminho do arquivo de logs em `arquivos/config_file.py`, variavel `log_file`
+5 - Ajustar o caminho do arquivo de logs em `arquivos/config_file.py`, variavel `log_file`. Esse arquivo é o que será processado pelo programa.
 
-6 - Os arquivos de Reports (CSV serao gerados no diretorio `arquivos` do projeto)
+6 - Os arquivos de Reports (CSV) serao gerados no diretorio `arquivos` do projeto.
