@@ -23,6 +23,7 @@ https://www.oracletutorial.com/python-oracle
 
 OBS: instalar o cx_Oracle pelo terminal do IDE
 
-5 - Ajustar o caminho do arquivo de logs em `arquivos/config_file.py`, variavel `log_file`. Esse arquivo é o que será processado pelo programa.
+5 - Ajustar o caminho do arquivo de logs em `arquivos/config_file.py`, variavel `log_file`. Esse arquivo é o que será processado pelo programa. 
+O `arquivos/logs_sample.txt` que pode ser usado como teste.
 
 6 - Os arquivos de Reports (CSV) serao gerados no diretorio `arquivos` do projeto.
